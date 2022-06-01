@@ -545,6 +545,10 @@ a[data-lightbox] {
   position: relative;
   display: block;
   text-align: center;
+} 
+.realisation-img img{
+    width: 300px;
+    height: 200px;
 }
 
 a[data-lightbox]:hover::before {
