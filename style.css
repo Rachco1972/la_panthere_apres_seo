@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a ,
+.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -304,7 +304,7 @@ a:hover {
 
 .navbar-brand img {
     width: 227px;
-  height: 42px;
+ max-height:200px;
   margin: 0 5px 0 0;
   display: inline;
 }
@@ -669,7 +669,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 ;
+  color: #575757 !important;
 }
 
 .container {
@@ -842,7 +842,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.png");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
