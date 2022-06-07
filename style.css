@@ -669,7 +669,8 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black;
+  
 }
 
 .container {
@@ -711,7 +712,7 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
+  color: black!important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -722,6 +723,7 @@ p {
   max-width: 400px;
   margin: auto auto auto auto;
 }
+
 
 h2 {
   font-size: 32px;
@@ -743,7 +745,7 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: white;
 }
 
 h4 {
@@ -756,9 +758,13 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color:white;
   font-size: 20px;
 }
+.text-center.white.design{
+    color: black;
+}
+
 
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -796,15 +802,15 @@ h4 {
 }
 
 .tc-white {
-    color: white !important;
+    color:white;
 }
 .btn-atomic-tangerine {
- 
-  color: #000000 !important;
+    background: #f3976c;
+  color: #CFCFCF;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #2e006c !important;
+    background: #2e006c!important;
   color: white !important;
 }
 .btn-atomic-tangerine:focus {
@@ -982,8 +988,8 @@ h4 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height: 40px;
-    width: auto;
+    height: 40px;
+    width:200px;
   }
   .nav-invert .navbar-header {
     float: none;
