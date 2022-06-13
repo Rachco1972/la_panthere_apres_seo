@@ -303,8 +303,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    width: 200px;
- height:40px;
+    
+max-height:4 200px;
  
   margin: 0 5px 0 0;
   display: inline;
